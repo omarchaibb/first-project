@@ -1,0 +1,39 @@
+.Princing{
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prg{
+    color: var(--Black-20, #B3B3BA);
+    text-align: center;
+}
+
+.Princing-btns{
+    border-radius: 99px;
+    border: 1.5px solid var(--Black-10, #F4F4F6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: baseline; */
+    /* width: 291px; */
+    height: 54px;
+    gap: 45px;
+    padding: 30px 16px;
+}
+
+.princing-button{
+    border-style:none;
+    background-color: #FC552F;
+    color: white;
+}
+
+
+.Yearly{
+    border-style: none;
+    background-color: white;
+}

@@ -1,0 +1,127 @@
+.News{
+    margin-top: 200px;
+    
+}
+
+/* header of the News section style  */
+.btn-h3-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* News button style  */
+.News-button{
+    padding-left: 38px;
+    padding-right: 44px;
+    background: var(--Primary-20, #FFC7B7);
+    border-style: none;
+    color: var(--Primary-100, #FC552F);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* title style News section  */
+.title{
+    color: var(--Black-100, #07070C);
+    text-align: center;
+    font-family: Poppins;
+    margin: 10px 0;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* paragraphe style in News section  */
+.btn-h3-p p{
+    color: var(--Black-20, var(--Black-20, #B3B3BA));
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* News container  */
+.News-container{
+    display: flex; 
+    justify-content: space-around;
+    width: 100%;
+    height: 583px; 
+}
+
+/* the container of the first element  */
+.first-N{
+    border-radius: 20px;
+    border: 2px solid var(--Black-10, #F4F4F6);
+    width: 326px;
+    height: 583px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 30px #EEE;
+    margin-top:20px;
+}
+
+/* the title and the paragraphe of the first element  */
+.title-and-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+/* the container of the button in first element  */
+.frame{
+    display: flex;
+    align-items: baseline;
+    gap: 57px;
+}
+
+/* padd is a form add 20px padding on image and the container of buttons (frame) */
+.padd{
+    padding: 20px;
+}
+
+/* the style of the title and the paragraphe of the first element  */
+.title-and-paragraph h5{
+    color: var(--Primary-100, #FC552F);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+}
+.title-and-paragraph h3{
+    color: var(--Black-100, #07070C);
+    font-family: Poppins;
+    font-size: 24px;
+    font-size:clamp(1.6rem, 20vw,1.5rem) ;
+    font-style: normal;
+}
+.title-and-paragraph p{
+    color: var(--Black-20, #B3B3BA);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* style of the frame and and the paragraphe text on the left  */
+.News-button-frame{
+    background-color:#FC552F;
+    color: var(--white-100, #FFF);
+    text-align: center;
+    font-family: DM Sans;
+    border-style: none;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.frame p {
+    color: var(--Black-50, #6E727E);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+}
+

@@ -1,0 +1,87 @@
+/* hero section style  */
+.Hero-section {
+    position: relative;
+    background: var(--Black-100, #07070C);
+    height: 843px;
+    object-position: bottom;
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+/* image style in hero section  */
+.Hero-section img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+/* title and paragraphe style  */
+.title-and-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 138px;
+    
+}
+
+/* the title style in Home section  */
+.title.white{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* paragraphe style in Home section  */
+.prg{
+    color: white;
+    margin: 15px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* btn in hero section style  */
+.btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap:20px;
+
+}
+
+/* style of all buttons  */
+.start{
+    background-color: #FC552F;
+    color: white;
+    border-style: none;
+    margin-top: 15px;
+}
+
+button{
+    cursor: pointer;
+    padding: 16px 20px;
+    border-radius: 14px 40px;
+    transition: .6s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+/* style of Explore Fearue button  */
+.Feature{
+    margin-top: 15px;
+    padding: 16px 20px;
+    border: #FC552F solid;
+    background-color: #07070C;
+    color: #FC552F;
+    border-radius: 14px 40px;
+}
+
